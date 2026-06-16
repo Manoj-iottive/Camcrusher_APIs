@@ -1,0 +1,28 @@
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Valhalla generated data
+valhalla/tiles/
+valhalla/data/
+valhalla/build/
+
+# Large map data files
+*.osm.pbf
+*.tar
+
+valhalla/custom_files/
+openlr-sidecar/*.osm.pbf
+
+# Python virtual env
+api/venv/
+.env
